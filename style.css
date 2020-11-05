@@ -1,0 +1,24 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background-color: pink;
+    position: relative; /*grid is relative to browser*/
+    /* score */
+    font-size: 200px;
+    text-align: center;
+}
+
+.doodler {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute; /*doodler is absolute inside of grid*/
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: gray; /*platform is absolute inside of grid */
+    position: absolute;
+}
